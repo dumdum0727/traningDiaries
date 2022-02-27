@@ -17,10 +17,10 @@
     
         </div>
         <div class="main">
-            <div class="index">
-                <a href="post_input.php"><button class="Button-style">投稿する</button></a>
+            <div class="post_complete">
+                <p>投稿が完了しました。</p>
+                <a href="index.php">ホームに戻る</a>
             </div>
-
         </div>
         <div class="left_side">
     

@@ -17,10 +17,21 @@
     
         </div>
         <div class="main">
-            <div class="index">
-                <a href="post_input.php"><button class="Button-style">投稿する</button></a>
-            </div>
-
+            <form action="post.php" class="post_form">
+                <div class="post_contents">
+                    <label>
+                        <p>投稿内容</p>
+                        <textarea name="text" cols="30" rows="10" required></textarea>
+                    </label>
+                </div>
+                <div class="post_image">
+                    <label>
+                        <p>画像選択</p>
+                        <input type="file" name="image">
+                    </label>
+                </div>
+                <input type="submit" value="投稿する" class="post_button">
+            </form>
         </div>
         <div class="left_side">
     

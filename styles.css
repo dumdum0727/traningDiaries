@@ -1,3 +1,5 @@
+/* 共通のスタイル */
+
 header {
     margin: 0;
     background-color: darkorange;
@@ -33,14 +35,34 @@ header p {
 }
 
 .Button-style {
-    font-size: 15px;
-    display: block;
-    padding: 0.5em 1em 0.3em;
-    margin: 10px 10px 0 auto;
-    margin-left: auto;
-    color: black;
-    border-radius: 25px;
-    border-color: black;
-    background-color: darkorange;
-    cursor: pointer;
-    }
+font-size: 15px;
+display: block;
+padding: 0.5em 1em 0.3em;
+margin: 10px 10px 0 auto;
+margin-left: auto;
+color: black;
+border-radius: 25px;
+border-color: black;
+background-color: darkorange;
+cursor: pointer;
+}
+
+.index a {
+    text-decoration: none;
+}
+
+/* post_input.phpのスタイル */
+
+.post_form {
+    text-align: center;
+}
+
+.post_button {
+    margin-top: 30px;
+}
+
+/* post_complete.phpのスタイル */
+
+.post_complete {
+    text-align: center;
+}
